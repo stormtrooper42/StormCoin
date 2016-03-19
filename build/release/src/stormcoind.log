@@ -1,0 +1,66 @@
+2016-Mar-19 16:31:44.609758 INFO [daemon] stormcoin v1.1.1.1()
+2016-Mar-19 16:31:44.610145 INFO [daemon] Module folder: ./stormcoind
+2016-Mar-19 16:31:44.646505 INFO [daemon] Initializing p2p server...
+2016-Mar-19 16:31:44.647658 INFO [node_server] Binding on 0.0.0.0:17236
+2016-Mar-19 16:31:44.647813 INFO [node_server] Net service binded on 0.0.0.0:17236
+2016-Mar-19 16:31:44.647917 INFO [node_server] Attempting to add IGD port mapping.
+2016-Mar-19 16:31:45.698245 INFO [node_server] Added IGD port mapping.
+2016-Mar-19 16:31:45.698444 INFO [daemon] P2p server initialized OK
+2016-Mar-19 16:31:45.698544 INFO [daemon] Initializing core...
+2016-Mar-19 16:31:45.698855 INFO [Blockchain] Blockchain not loaded, generating genesis block.
+2016-Mar-19 16:31:45.929338 INFO [Blockchain] Blockchain initialized. last block: 0, d1354.h10.m31.s45 time ago, current difficulty: 1
+2016-Mar-19 16:31:45.929625 INFO [daemon] Core initialized OK
+2016-Mar-19 16:31:45.929971 INFO [daemon] Starting core rpc server on address 127.0.0.1:18236
+2016-Mar-19 16:31:45.930874 INFO [daemon] Core rpc server started ok
+2016-Mar-19 16:31:45.931569 INFO [daemon] Starting p2p net loop...
+2016-Mar-19 16:31:45.932222 INFO [node_server] Starting node_server
+2016-Mar-19 16:31:46.065828 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:31:46.066080 INFO [core] 
+2016-Mar-19 16:31:46.066080 INFO [core] **********************************************************************
+2016-Mar-19 16:31:46.066080 INFO [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2016-Mar-19 16:31:46.066080 INFO [core] 
+2016-Mar-19 16:31:46.066080 INFO [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2016-Mar-19 16:31:46.066080 INFO [core] 
+2016-Mar-19 16:31:46.066080 INFO [core] Use "help" command to see the list of available commands.
+2016-Mar-19 16:31:46.066080 INFO [core] 
+2016-Mar-19 16:31:46.066080 INFO [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2016-Mar-19 16:31:46.066080 INFO [core] **********************************************************************
+2016-Mar-19 16:31:48.196798 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:31:50.328670 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:31:52.474127 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:31:54.604587 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:31:56.736958 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:31:58.881730 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:01.014448 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:03.146008 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:05.271595 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:07.399198 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:09.567461 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:11.695446 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:13.843955 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:15.972688 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:18.104545 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:20.235915 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:22.369473 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:24.499381 ERROR [node_server] Failed to connect to any of seed peers, continuing without seeds
+2016-Mar-19 16:32:25.661401 INFO [node_server] Stop signal sent
+2016-Mar-19 16:32:25.661620 INFO [node_server] Stopping NodeServer and it's0 connections...
+2016-Mar-19 16:32:25.661814 INFO [node_server] NodeServer loop stopped
+2016-Mar-19 16:32:25.661920 INFO [daemon] p2p net loop stopped
+2016-Mar-19 16:32:25.662042 INFO [daemon] Stopping core rpc server...
+2016-Mar-19 16:32:25.662178 INFO [daemon] Deinitializing core...
+2016-Mar-19 16:32:25.662274 INFO [miner] Mining has been stopped, 0 finished
+2016-Mar-19 16:32:25.662523 INFO [Blockchain] Saving blockchain...
+2016-Mar-19 16:32:25.662701 INFO [BlockCacheSerializer] - saving block index...
+2016-Mar-19 16:32:25.662809 INFO [BlockCacheSerializer] - saving transaction map...
+2016-Mar-19 16:32:25.662913 INFO [BlockCacheSerializer] - saving spent keys...
+2016-Mar-19 16:32:25.663006 INFO [BlockCacheSerializer] - saving outputs...
+2016-Mar-19 16:32:25.663097 INFO [BlockCacheSerializer] - saving multi-signature outputs...
+2016-Mar-19 16:32:25.663192 INFO [BlockCacheSerializer] Serialization time: 0ms
+2016-Mar-19 16:32:25.663332 INFO [Blockchain] Saving blockchain indices...
+2016-Mar-19 16:32:25.663527 INFO [BlockchainIndicesSerializer] - saving paymentID index...
+2016-Mar-19 16:32:25.663653 INFO [BlockchainIndicesSerializer] - saving timestamp index...
+2016-Mar-19 16:32:25.663768 INFO [BlockchainIndicesSerializer] - saving generated transactions index...
+2016-Mar-19 16:32:25.663926 INFO [daemon] Deinitializing p2p...
+2016-Mar-19 16:32:25.664270 INFO [miner] Mining has been stopped, 0 finished
+2016-Mar-19 16:32:25.664916 INFO [daemon] Node stopped.
